@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite" verbose="1" >
+  <test name="Checking forgot passsword with invalid credentials" >
+    <classes>
+       -- Specify Class name here ---
+       <class name="SeleniumTests.CheckForgotPasswordWithInvalidCredentials" />
+    </classes>
+  </test>
+  <test name="check login with invalid credentials">
+    <classes>
+      -- Specify Class name here ---
+         <class name="SeleniumTests.LoginLogoutWithInvalidCredentials" />
+    </classes>
+  </test>
+  <test name="check logo on landing page">
+    <classes>
+      -- Specify Class name here ---
+         <class name="SeleniumTests.CheckLogo" />
+    </classes>
+  </test>
+  <test name="check logo on dashboard screen">
+    <classes>
+      -- Specify Class name here ---
+         <class name="SeleniumTests.CheckLogoOnDashBoard" />
+    </classes>
+  </test>
+  <test name="Check valid login and logout by CAM user">
+    <classes>
+      -- Specify Class name here ---
+         <class name="SeleniumTests.LoginLogoutByCAMUser" />
+    </classes>
+  </test>
+  <test name="Check valid login and logout by Public user">
+    <classes>
+      -- Specify Class name here ---
+         <class name="SeleniumTests.LoginLogoutByPublicUser" />
+    </classes>
+  </test>
+    <test name="Check valid login and logout by Clinician user">
+    <classes>
+      -- Specify Class name here ---
+         <class name="SeleniumTests.LoginLogoutByClinicianUser" />
+    </classes>
+  </test>
+</suite>
